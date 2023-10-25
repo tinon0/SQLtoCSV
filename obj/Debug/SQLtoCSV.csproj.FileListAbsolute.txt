@@ -1,0 +1,11 @@
+C:\Users\Tinon\source\repos\SQLtoCSV\bin\Debug\SQLtoCSV.exe.config
+C:\Users\Tinon\source\repos\SQLtoCSV\bin\Debug\SQLtoCSV.exe
+C:\Users\Tinon\source\repos\SQLtoCSV\bin\Debug\SQLtoCSV.pdb
+C:\Users\Tinon\source\repos\SQLtoCSV\obj\Debug\SQLtoCSV.csproj.AssemblyReference.cache
+C:\Users\Tinon\source\repos\SQLtoCSV\obj\Debug\SQLtoCSV.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tinon\source\repos\SQLtoCSV\obj\Debug\SQLtoCSV.Form1.resources
+C:\Users\Tinon\source\repos\SQLtoCSV\obj\Debug\SQLtoCSV.Properties.Resources.resources
+C:\Users\Tinon\source\repos\SQLtoCSV\obj\Debug\SQLtoCSV.csproj.GenerateResource.cache
+C:\Users\Tinon\source\repos\SQLtoCSV\obj\Debug\SQLtoCSV.csproj.CoreCompileInputs.cache
+C:\Users\Tinon\source\repos\SQLtoCSV\obj\Debug\SQLtoCSV.exe
+C:\Users\Tinon\source\repos\SQLtoCSV\obj\Debug\SQLtoCSV.pdb
