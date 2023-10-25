@@ -1,0 +1,29 @@
+CREATE DATABASE Panaderia;
+GO
+USE Panaderia;
+GO
+CREATE TABLE TipoDePanes (
+    TipoPanID INT PRIMARY KEY,
+    NombreTipoPan NVARCHAR(50)
+);
+GO
+INSERT INTO TipoDePanes (TipoPanID, NombreTipoPan)
+VALUES (1, 'Baguette'),
+       (2, 'Pan Integral'),
+       (3, 'Pan de Centeno'),
+       (4, 'Pan de Avena');
+GO
+CREATE TABLE Pan (
+    PanID INT PRIMARY KEY,
+    NombrePan NVARCHAR(50),
+    Precio DECIMAL(10, 2),
+    TipoPanID INT,
+    FOREIGN KEY (TipoPanID) REFERENCES TipoDePanes (TipoPanID)
+);
+GO
+INSERT INTO Pan (PanID, NombrePan, Precio, TipoPanID)
+VALUES (1, 'Baguette Francés', 2.50, 1),
+       (2, 'Pan Integral Multigrano', 3.00, 2),
+       (3, 'Pan de Centeno Tradicional', 2.75, 3),
+       (4, 'Pan de Avena con Miel', 2.90, 4);
+GO
